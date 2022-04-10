@@ -1,0 +1,11 @@
+*{
+   margin: 0cm;
+
+   padding: 0cm;
+}
+.main{
+    background: url(food.jpg);
+    background-size: cover;
+   stroke-width: 10px;
+    
+}

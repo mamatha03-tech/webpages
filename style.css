@@ -1,0 +1,200 @@
+*{
+    margin: 0cm;
+
+    padding: 0cm;
+}
+.main{
+    width: 100%;
+    background: url(3.jpg);
+    background-size: cover;
+    height: 109vh ;
+   
+    
+}
+.navbar{
+    width: 1200px;
+    height: 70px;
+    margin: auto;
+   
+
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 700px;
+    
+}
+.logo{
+    color: rgb(255, 255, 255);
+    
+    font-weight: bolder;
+    padding-top: 10px;
+    float: left;
+    margin-right: 70px;
+}
+.logo:hover{
+    color: brown;
+}
+.menu{
+    width: 100px;
+    float: left;
+    height: 50px;
+}
+ul
+{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(211, 211, 211);
+    
+}
+a:hover{
+    color: rgb(223, 142, 110);
+}
+
+.search{
+
+    width: 330px;
+    float: right;
+    margin-right: 270px;
+    margin-top: 100px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid orange;
+    
+    border-right: 20px;
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5;
+}
+
+.btn{
+    font-family: 'Times New Roman';
+    width: 30%;
+    height: 40px;
+    border: 2px solid rgb(217, 186, 129);
+  background: orange;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+h2{
+    font-family: 'Times New Roman';
+  color: rgb(161, 94, 13);
+  margin-top: 150px;
+  font-size: 29px;
+   
+}
+p{
+    font-family: 'Times New Roman';
+    color: rgb(185, 109, 16);
+    margin-top: 5px;
+    font-size: 20px; 
+}
+.cn{
+    font-family: 'Times New Roman';
+    color: rgb(30, 21, 9);
+    margin-top: 10px;
+    font-size: 25px;
+    width: 10%;
+    background: rgb(255, 255, 239);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+   cursor: pointer;
+ }
+ .cn:hover{
+  background-color: black;
+ }
+ .form{
+   
+    width: 20%;
+    background: rgb(235, 235, 201);
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    border-radius: 10px;
+    padding: 25px;
+    height:50%;
+
+ }
+ h3{
+     width: 50%;
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 0);
+    font-size: 20px; 
+    text-align: center; 
+    background-color: rgb(136, 192, 6);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px;
+
+ }
+ .form input{
+     width: 89%;
+     height: 10%;
+     background: rgb(240, 244, 243);
+     border-bottom: 2px solid rgb(16, 15, 17);
+     color:rgb(18, 19, 10);
+     font-size:15px;
+     margin-top: 30px;
+     font-family: sans-serif;
+
+ }
+ .btnn{
+    width: 89%;
+    height: 10%;
+    background: rgba(50, 50, 42, 0.732);
+    border-bottom: 2px solid rgb(16, 15, 17);
+    font-size:25px;
+    margin-top: 30px;
+    font-family: sans-serif;
+ }
+ .btnn a{
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ .btnn:hover{
+    background: white;
+    color:rgb(150, 102, 13)
+ }
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: darkmagenta;
+}
+.icons a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.icons ion-icon {
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 34px;
+    padding-top: 50px;
+}
